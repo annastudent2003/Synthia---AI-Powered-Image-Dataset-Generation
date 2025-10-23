@@ -48,10 +48,4 @@ node server.js
 .........
 ...........
 
-### 🔄 End-to-End Flow
 
-- Frontend (React) – user enters a prompt → sends POST to /generate
-- Backend (Node) – receives prompt → runs Python (annotate_pipeline.py)
-- Python ML – generates + labels dataset → saves to backend/generated/dataset_output
-- Backend – zips dataset → returns /downloads/dataset.zip
-- Frontend – displays top 10 images and enables Download All
