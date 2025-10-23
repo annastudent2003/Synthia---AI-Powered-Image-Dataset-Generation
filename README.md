@@ -3,7 +3,7 @@
 SYNTHIA is a full-stack AI application that generates **auto-labeled synthetic image datasets** from a simple text prompt.  
 It combines React.js (frontend), **Node.js + Express (backend)**, and a **Python ML pipeline** for image generation and annotation.
 
-
+![image alt](https://github.com/annastudent2003/Synthia---AI-Powered-Image-Dataset-Generation/blob/00ab0837691551063042fba5235946101f44115e/images/Screenshot%202025-10-23%20234501.png)
 
 ## 🚀 Features
 - 🎯 Enter a **text prompt** (e.g., “cats in the park”)  
