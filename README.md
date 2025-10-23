@@ -26,8 +26,4 @@ It combines React.js (frontend), **Node.js + Express (backend)**, and a **Python
 git clone https://github.com/your-username/synthia.git
 cd synthia
 
-### 💻 2. Frontend Setup (React.js)
-cd frontend
-npm install
-npm start
 
