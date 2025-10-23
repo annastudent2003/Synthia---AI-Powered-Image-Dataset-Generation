@@ -15,37 +15,7 @@ It combines React.js (frontend), **Node.js + Express (backend)**, and a **Python
 
 ## 🧱 Project Structure
 SYNTHIA/
-├── frontend/                  ← React.js UI
-│   ├── src/
-│   │   ├── pages/
-│   │   │   ├── Home.jsx
-│   │   │   └── Results.jsx
-│   │   ├── components/
-│   │   │   ├── ImageGrid.jsx
-│   │   │   └── FooterButtons.jsx
-│   │   ├── assets/
-│   │   │   └── bg-video.mp4
-│   │   ├── App.js
-│   │   └── App.css
-│   └── package.json
-│
-├── backend/                   ← Node.js + Express
-│   ├── server.js
-│   ├── routes/
-│   │   └── generate.js
-│   ├── generated/             ← Output (images + dataset.zip)
-│   ├── package.json
-│   │
-│   └── python/
-│       ├── image_generation/  ← (for later)
-│       │   └── generate_images.py
-│       └── auto_label/
-│           ├── annotate_pipeline.py
-│           ├── export_coco.py
-│           ├── extract_boxes.py
-│           ├── run_midas.py
-│           ├── run_sam.py
-│           └── utils.py
+![image alt]([https://github.com/annastudent2003/Synthia---AI-Powered-Image-Dataset-Generation/blob/f1bba68851d0647890430e81e7998ccc2aa1b7f5/images/a16eb651-1447-4bc3-86b9-fa81159b3c37.png)]
 
 
 
