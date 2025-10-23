@@ -64,4 +64,14 @@ npm install
 npm start
 ```
 
+### 🖥️ 3. Backend Setup (Node.js + Express)
+```bash
+cd ../backend
+npm install express cors archiver
+```
+Then run
+```bash
+node server.js
+```
 
+### 
