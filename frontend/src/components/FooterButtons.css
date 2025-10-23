@@ -1,0 +1,19 @@
+.footer-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-buttons button {
+  background: #ddd;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.footer-buttons button:hover {
+  background: #bbb;
+}

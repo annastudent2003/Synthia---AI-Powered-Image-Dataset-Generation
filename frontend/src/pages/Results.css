@@ -1,0 +1,97 @@
+.results-page {
+  background-color: #0d0d0d;
+  color: white;
+  min-height: 100vh;
+  padding: 30px 40px;
+  text-align: center;
+}
+
+/* Search bar like Google */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: 50%;
+  max-width: 600px;
+  padding: 12px 18px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  background: #1a1a1a;
+  color: white;
+  font-size: 16px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.15);
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  background: linear-gradient(135deg, #342f5f, #6c658a);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.search-bar button:hover {
+  transform: scale(1.05);
+}
+
+.button-row {
+  margin: 10px 0 30px;
+}
+
+.regen-btn,
+.download-btn {
+  margin: 6px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  color: white;
+  transition: 0.2s ease;
+}
+
+.regen-btn {
+  background: linear-gradient(135deg, #718e75, #1f3a27);
+}
+
+.download-btn {
+  background: linear-gradient(135deg, #431d4e, #5a435e);
+}
+
+.regen-btn:hover,
+.download-btn:hover {
+  transform: scale(1.05);
+}
+
+.loading-text {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.result-card img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.result-card img:hover {
+  transform: scale(1.03);
+}
