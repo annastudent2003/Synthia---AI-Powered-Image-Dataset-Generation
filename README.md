@@ -14,7 +14,38 @@ It combines React.js (frontend), **Node.js + Express (backend)**, and a **Python
 
 
 ## 🧱 Project Structure
-
+SYNTHIA/
+├── frontend/                  ← React.js UI
+│   ├── src/
+│   │   ├── pages/
+│   │   │   ├── Home.jsx
+│   │   │   └── Results.jsx
+│   │   ├── components/
+│   │   │   ├── ImageGrid.jsx
+│   │   │   └── FooterButtons.jsx
+│   │   ├── assets/
+│   │   │   └── bg-video.mp4
+│   │   ├── App.js
+│   │   └── App.css
+│   └── package.json
+│
+├── backend/                   ← Node.js + Express
+│   ├── server.js
+│   ├── routes/
+│   │   └── generate.js
+│   ├── generated/             ← Output (images + dataset.zip)
+│   ├── package.json
+│   │
+│   └── python/
+│       ├── image_generation/  ← (for later)
+│       │   └── generate_images.py
+│       └── auto_label/
+│           ├── annotate_pipeline.py
+│           ├── export_coco.py
+│           ├── extract_boxes.py
+│           ├── run_midas.py
+│           ├── run_sam.py
+│           └── utils.py
 
 
 
